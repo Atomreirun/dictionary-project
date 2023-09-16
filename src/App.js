@@ -1,5 +1,6 @@
 import React from "react";
 import Dictionary from "./Dictionary";
+import dictionary from "./dictionary.png";
 
 import "./App.css";
 
@@ -8,7 +9,11 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1>🌠✶ 🎀 𝒟𝒾𝒸𝓉𝒾♡𝓃𝒶𝓇𝓎 🎀 ✶🌠</h1>
+          <img
+            src={dictionary}
+            className="App-dictionary img=fluid"
+            alt="dictionary"
+          />
         </header>
         <main>
           <Dictionary />
