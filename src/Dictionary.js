@@ -11,9 +11,11 @@ export default function Dictionary() {
 
   function search(event) {
     event.preventDefault();
-    alert(`Searching for ${keyword} definition`);
 
-    let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key={4b1df33ac1383baf5be7t74e90d5f1oc}`;
+    // documentation: https://dictionaryapi.dev/
+    let apiKey = "4b1df33ac1383baf5be7t74e90d5f1oc";
+    let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
+
     axios.get(apiUrl).then(handleResponse);
   }
 
