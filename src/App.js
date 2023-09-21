@@ -13,6 +13,7 @@ export default function App() {
             src={dictionary}
             className="App-dictionary img=fluid"
             alt="dictionary"
+            width="400"
           />
         </header>
         <main>
