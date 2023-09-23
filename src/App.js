@@ -17,7 +17,7 @@ export default function App() {
           />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">Coded by Arlene Runyon</footer>
       </div>
