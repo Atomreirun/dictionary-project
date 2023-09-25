@@ -19,7 +19,25 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="sunset" />
         </main>
-        <footer className="App-footer">Coded by Arlene Runyon</footer>
+        <footer>
+          This project was created by Arlene Runyon and is{" "}
+          <a
+            href="https://github.com/Atomreirun/dictionary-project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on Github
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://jazzy-pie-08c7c3.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            Netlify.
+          </a>
+        </footer>
       </div>
     </div>
   );
