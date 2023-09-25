@@ -1,6 +1,6 @@
 import React from "react";
 import Dictionary from "./Dictionary";
-import dictionary from "./dictionary.png";
+import dictionary2 from "./dictionary2.png";
 
 import "./App.css";
 
@@ -10,11 +10,12 @@ export default function App() {
       <div className="container">
         <header className="App-header">
           <img
-            src={dictionary}
+            src={dictionary2}
             className="App-dictionary img=fluid"
             alt="dictionary"
-            width="400"
+            width="450"
           />
+          <h1 className="banner">Dictionary Search Engine by Arlene Runyon</h1>
         </header>
         <main>
           <Dictionary defaultKeyword="sunset" />

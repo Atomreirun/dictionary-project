@@ -1,9 +1,21 @@
 body {
-  background: #7f9a95;
+  background: linear-gradient(
+    110.9deg,
+    rgb(44, 221, 239) 1.1%,
+    rgb(14, 191, 210) 37.6%,
+    rgb(8, 127, 140) 99.2%
+  );
 }
 
 a {
   color: #774de3;
+}
+
+.banner {
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .App {
